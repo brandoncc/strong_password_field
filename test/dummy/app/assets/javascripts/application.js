@@ -12,11 +12,11 @@
 //
 //= require rails-ujs
 //= require activestorage
-//= require rdun
+//= require strong_password_field
 //= require_tree .
 
 document.addEventListener('DOMContentLoaded', function() {
-  var rdun = new Rdun();
-  rdun.validate();
+  var strongPasswordField = new StrongPasswordField();
+  strongPasswordField.validate();
 });
 

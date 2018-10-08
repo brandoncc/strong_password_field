@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :rdun do
+# task :strong_password_field do
 #   # Task goes here
 # end

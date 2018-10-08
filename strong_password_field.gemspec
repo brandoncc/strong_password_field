@@ -1,17 +1,17 @@
 $:.push File.expand_path("lib", __dir__)
 
 # Maintain your gem's version:
-require "rdun/version"
+require "strong_password_field/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "rdun"
-  s.version     = Rdun::VERSION
+  s.name        = "strong_password_field"
+  s.version     = StrongPasswordField::VERSION
   s.authors     = ["gaotongfei"]
   s.email       = ["gaotongfei1995@gmail.com"]
-  s.homepage    = "https://github.com/gaotongfei/rdun"
-  s.summary     = "add strong_password_field support for your rails application"
-  s.description = "validate password inputs"
+  s.homepage    = "https://github.com/gaotongfei/strong_password_field"
+  s.summary     = "Add strong_password_field support for your rails application"
+  s.description = "Add strong_password_field support for your rails application"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md", "vendor"]

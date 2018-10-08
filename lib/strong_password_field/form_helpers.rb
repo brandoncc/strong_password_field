@@ -1,4 +1,4 @@
-module Rdun
+module StrongPasswordField
   module FormHelper
     def strong_password_field(object_name, method, options = {})
       options.merge!(data: { strong_password: true })
