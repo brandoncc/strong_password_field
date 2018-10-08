@@ -12,4 +12,11 @@
 //
 //= require rails-ujs
 //= require activestorage
+//= require rdun
 //= require_tree .
+
+document.addEventListener('DOMContentLoaded', function() {
+  var rdun = new Rdun();
+  rdun.validate();
+});
+
