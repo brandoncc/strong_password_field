@@ -1,5 +1,5 @@
 require "rdun/railtie"
+require 'rdun/form_helpers'
 
 module Rdun
-  # Your code goes here...
 end
