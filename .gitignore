@@ -11,3 +11,4 @@ test/dummy/tmp/
 .idea
 *.swp
 *.swo
+.DS_Store
