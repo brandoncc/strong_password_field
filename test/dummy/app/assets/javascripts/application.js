@@ -13,10 +13,13 @@
 //= require rails-ujs
 //= require activestorage
 //= require strong_password_field
+//= require zxcvbn
 //= require_tree .
 
 document.addEventListener('DOMContentLoaded', function() {
-  var strongPasswordField = new StrongPasswordField();
+  var strongPasswordField = new StrongPasswordField({
+    min_length: 2
+  });
   strongPasswordField.validate();
 });
 
