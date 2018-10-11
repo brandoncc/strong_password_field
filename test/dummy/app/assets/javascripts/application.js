@@ -18,7 +18,8 @@
 
 document.addEventListener('DOMContentLoaded', function() {
   var strongPasswordField = new StrongPasswordField({
-    min_length: 2
+    min_length: 2,
+    strengthMeterSelector: '.password-strength-meter'
   });
   strongPasswordField.validate();
 });

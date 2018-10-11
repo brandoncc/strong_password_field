@@ -2,3 +2,13 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+
+}
+
+.form-container .row {
+  min-height: 60px;
+}
