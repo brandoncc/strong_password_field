@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["gaotongfei"]
   s.email       = ["gaotongfei1995@gmail.com"]
   s.homepage    = "https://github.com/gaotongfei/strong_password_field"
-  s.summary     = "Add strong_password_field support for your rails application"
-  s.description = "Add strong_password_field support for your rails application"
+  s.summary     = "Rails engine for password strength checking"
+  s.description = "Rails engine for password strength checking"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md", "vendor"]

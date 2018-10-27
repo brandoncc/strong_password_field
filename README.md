@@ -1,8 +1,35 @@
 # StrongPasswordField
-Short description and motivation.
+Rails engine for password strength checking
 
 ## Usage
-How to use my plugin.
+
+```ruby
+class User < ApplicationRecord
+  include StrongPasswordField
+
+  has_strong_password :password
+end
+```
+
+```html
+<%= form_for @user do |f| %>
+  <%= f.strong_password_field :password %>
+  <div class="password-strength-meter">
+  </div>
+<% end %>
+```
+
+```javascript
+//= require strong_password_field
+//= require zxcvbn
+
+document.addEventListener('DOMContentLoaded', function() {
+  var strongPasswordField = new StrongPasswordField({
+    strengthMeterSelector: '.password-strength-meter'
+  });
+  strongPasswordField.validate();
+});
+```
 
 ## Installation
 Add this line to your application's Gemfile:
