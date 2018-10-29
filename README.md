@@ -51,7 +51,7 @@ $ gem install strong_password_field
 ## Contributing
 Contribution directions go here.
 
-##TODOs
+## TODOs
 - [ ] Add tests and travis-ci
 - [ ] Better password strength meter UI
 - [ ] Add support for regex
